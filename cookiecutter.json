@@ -1,0 +1,10 @@
+{
+    "project_name": "Name of the project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "year": "{% now 'local', '%Y' %}",
+    "version": "0.1.0",
+    "minimum_cmake_version": "3.7",
+    "cxx_standard": "11",
+    "hunter_gate_version": "v0.17.17",
+    "hunter_gate_sha1": "b561a1c80731bd3c6dab2e54f76178e734249688"
+}
